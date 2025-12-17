@@ -111,7 +111,7 @@ if ($dino_id) : ?>
         <input type="hidden" name="hidden-name" id="hidden-name" value="<?= $dino_name; ?>">
 
         <!-- Submit Button -->
-        <input type="submit" name="confirm" id="confirm" value="Yes, sir." class="btn btn-danger" 
+        <input type="submit" name="confirm" id="confirm" value="Yes, I'm sure." class="btn btn-danger" 
         <?php if ($favourite_count > 0): ?>return "This dino is favourited by <?= $favourite_count; ?> user(s). Are you sure you want to delete it?";
         <?php endif; ?>>
     </form>
