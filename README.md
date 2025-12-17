@@ -2,6 +2,39 @@
 
 **DinoBase** is a PHP-based dinosaur catalogue and management system. It allows administrators to manage a database of dinosaur species, complete with detailed statistics, descriptions, and images. The application is containerized using Docker for easy deployment and development.
 
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <th width="25%">Landing Page</th>
+    <th width="25%">Admin Dashboard</th>
+    <th width="25%">Add Entry</th>
+    <th width="25%">User Profile</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="assets/landing-page.png" width="100%">
+      <br><br>
+      <em>The Landing page provides a gallery view featuring entries from our database, pagination, a featured-dinos page and log-in page.</em>
+    </td>
+    <td valign="top">
+      <img src="assets/authenticated-homepage.png" width="100%">
+      <br><br>
+      <em>The homepage with full CRUD functionality enabled.</em>
+    </td>
+    <td valign="top">
+      <img src="assets/add-page.png" width="100%">
+      <br><br>
+      <em>Add an entry into the database.</em>
+    </td>
+    <td valign="top">
+      <img src="assets/upload.png" width="100%">
+      <br><br>
+      <em>Upload your own profile picture and view your database entries.</em>
+    </td>
+  </tr>
+</table>
+
 ## ✨ Key Features
 
 *   **Detailed Catalogue**: View a detailed list of dinosaurs including genus, species, era, size, weight, and location.
