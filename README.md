@@ -1,8 +1,6 @@
-# 🦕 DinoBase
+# DinoBase
 
 **DinoBase** is a PHP-based dinosaur catalogue and management system. It allows administrators to manage a database of dinosaur species, complete with detailed statistics, descriptions, and images. The application is containerized using Docker for easy deployment and development.
-
-## 📸 Screenshots
 
 <table>
   <tr>
@@ -35,7 +33,7 @@
   </tr>
 </table>
 
-## ✨ Key Features
+##  Features
 
 *   **Detailed Catalogue**: View a detailed list of dinosaurs including genus, species, era, size, weight, and location.
 *   **Search & Filter**: Search functionality to find dinosaurs by name or filter by criteria.
@@ -45,7 +43,7 @@
 *   **Profile Management**: Admins can update their profiles and upload profile pictures.
 *   **Responsive Design**: Built with Bootstrap for a modern, responsive user interface.
 
-## 🛠️ Technology Stack
+##  Tech Stack
 
 *   **Backend**: PHP 8.4
 *   **Database**: MySQL
@@ -54,9 +52,7 @@
 *   **Containerization**: Docker
 *   **Database Management**: phpMyAdmin (included in dev environment)
 
-## 🚀 Getting Started
-
-This project is fully containerized. You can get it up and running with just a few commands.
+##  Setup
 
 ### Prerequisites
 
@@ -66,8 +62,8 @@ This project is fully containerized. You can get it up and running with just a f
 
 1.  **Clone the repository**:
     ```bash
-    git clone <repository-url>
-    cd dinobase-project
+    git clone https://github.com/Tsohnle95/The-DinoBase.git
+    cd The-Dinobase
     ```
 
 2.  **Start the environment**:
@@ -104,7 +100,7 @@ Since there is no public registration page, you can create a new user manually u
     VALUES ('your_username', '$2y$10$YourGeneratedHashHere...');
     ```
 
-## 🗄️ Database Schema
+##  Database Schema
 
 The core database `dinobase` consists of the following structure:
 
@@ -113,7 +109,7 @@ The core database `dinobase` consists of the following structure:
 *   **`favourites`**: Maps relationships between users and their favorite dinosaurs.
 *   **`profile_pics`**: specific table for user profile settings.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 dinobase-project/
@@ -125,7 +121,7 @@ dinobase-project/
 └── apache-dirlist.conf # Apache configuration
 ```
 
-## 🤝 Contributors
+##  Contributors
 
-Special thanks to my team members who contributed to the 🦕 DinoBase! 
+Special thanks to my team members who contributed to the DinoBase! 
 <p>longtran2092004 | Electronic-than | jrussell43</p>
